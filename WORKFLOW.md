@@ -91,6 +91,8 @@ Atau langsung: `python caption.py transcribe final_cut.mp4 --template hormozi --
 
 ---
 
-> **Catatan format:** blueprint ini default ke **shorts faceless 9:16** (b-roll AI + voiceover + caption).
-> Kalau formatnya beda (mis. talking-head + b-roll, atau landscape 16:9 buat YouTube),
-> sesuaikan aspect ratio & pilihan model di Stage 1–2.
+> **Catatan format:** dipakai 3 format buat variasi konten:
+> - **Shorts/Reels/TikTok → 9:16** (default; b-roll AI + voiceover + caption).
+> - **YouTube → 16:9** (durasi & pacing lebih panjang, model bisa res lebih tinggi).
+>
+> Sesuaikan aspect ratio di Stage 1–2 sesuai target platform tiap konten.
